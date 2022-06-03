@@ -9,7 +9,7 @@ function FooterUnit4(props) {
             <div className='col-2' style={{width:"20rem"}}  key={list.id}>
                 <p style={{ fontFamily: '"Open Sans", sans-serif', fontWeight: "bold" ,margin:"0" ,color:"#7F8C8D"}}>{list.title}</p>
               {list.eat.map((list)=>(
-                 <div>
+                 <div> 
                     <a href="#" style={{textDecoration:"none" ,color:"black"}}>
                     <p style={{ fontFamily: '"Open Sans", sans-serif', fontWeight: "100" ,margin:"0" }}>{list}</p>
                     </a>
