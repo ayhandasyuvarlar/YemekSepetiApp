@@ -6,7 +6,7 @@ function FooterUnit4(props) {
     
             <article className='col-12' style={{display:"flex"}}>
             {listCity.map((list) =>(
-            <div className='col-2' style={{width:"20rem"}}>
+            <div className='col-2' style={{width:"20rem"}}  key={list.id}>
                 <p style={{ fontFamily: '"Open Sans", sans-serif', fontWeight: "bold" ,margin:"0" ,color:"#7F8C8D"}}>{list.title}</p>
               {list.eat.map((list)=>(
                  <div>
