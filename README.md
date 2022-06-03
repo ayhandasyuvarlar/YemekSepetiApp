@@ -6,4 +6,4 @@ Hello , my name is ayhan , In this article, I will tell you about a work I did w
 ## App-images
 
 
-[link](img-1.png)
+[link](https://www.example.com/my%20great%20page)
